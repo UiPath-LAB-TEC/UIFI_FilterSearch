@@ -1,5 +1,5 @@
 {
-  "name": "UI_AirFilter",
+  "name": "UIFI_FilterSearch",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -17,10 +17,12 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.4.1.0",
-  "projectVersion": "1.0.5",
+  "projectVersion": "1.0.7",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -29,7 +31,8 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
