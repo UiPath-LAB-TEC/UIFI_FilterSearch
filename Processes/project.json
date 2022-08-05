@@ -1,23 +1,25 @@
 {
-  "name": "UIFI_FilterSearch",
+  "name": "UIFI",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.8.5]",
-    "UiPath.Form.Activities": "[1.1.2]",
-    "UiPath.FormActivityLibrary": "[1.1.2]",
-    "UiPath.FormActivityLibrary.Contracts": "[1.1.1]",
-    "UiPath.Mail.Activities": "[1.8.5]",
-    "UiPath.System.Activities": "[20.4.0]",
-    "UiPath.UIAutomation.Activities": "[20.4.1]",
-    "UiPath.WebAPI.Activities": "[1.4.5]",
+    "UiPath.Callout.Activities": "[2.0.2-preview]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Form.Activities": "[2.0.2-preview]",
+    "UiPath.FormActivityLibrary": "[2.0.2-preview]",
+    "UiPath.FormActivityLibrary.Contracts": "[2.0.2-preview]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]",
+    "UiPath.WebAPI.Activities": "[1.11.1]",
     "UiPathTeam.AttendedRobotStatus.Activities": "[1.0.30]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "20.4.1.0",
-  "projectVersion": "1.0.7",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.112704963",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -32,7 +34,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": false
+    "mustRestoreAllDependencies": true
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -44,18 +46,28 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
-    "modernBehavior": false
-  },
-  "arguments": {
-    "input": [],
-    "output": []
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4d8b6199-d243-410d-a0ce-0c1c2c85b7fc",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "FT_UIFI_FilterAdvantages.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2b437916-b8ef-4b9d-9f2a-44f1255206d7",
+        "testCaseType": "TestCase",
+        "fileName": "FT_UIFI_CheckDocumentFinderPage.xaml"
+      }
+    ],
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "16b5f7ea-21a8-4102-81d6-d347d065dd21",
+      "uniqueId": "0fa8678e-adcc-47c9-a057-4504f25571ce",
       "input": [],
       "output": []
     }
